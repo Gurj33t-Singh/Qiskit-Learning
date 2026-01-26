@@ -1,18 +1,21 @@
 # QiskitLearning
 
-A collection of Qiskit notebooks implementing and analysing foundational quantum algorithms, with reproducible circuits, state-vector checks, and measurement analysis.
+A collection of Qiskit notebooks implementing and analysing foundational quantum algorithms, with reproducible circuits, state-vector checks, and measurement analysis. Along with personal interpretations and simplified explanations for published research papers. 
 
 ## Contents
 
+- Notes (Theoretical Foundations & Interpretations)
+	- [Notes/1935-EPR-Quantum.pdf](Notes/1935-EPR-Quantum.pdf) - A simplified explanation of EPR paradox
+	- [Notes/J.S Bell's Inequality 1964.pdf](Notes/J.S%20Bell's%20Inequality%201964.pdf) - Breakdown of maths for the inequality equation. 
 - Environment files
-  - [env_qiskit.yml](env_qiskit.yml) — conda env for Qiskit-based notebooks
-  - [pip-requirements.txt](pip-requirements.txt) — pip dependencies for Qiskit-based notebooks
+	- [env_qiskit.yml](env_qiskit.yml) - conda env for Qiskit-based notebooks
+	- [pip-requirements.txt](pip-requirements.txt) - pip dependencies for Qiskit-based notebooks
 - Notebooks
-	- [Notebooks/Berinstein-Vazarani.ipynb](Notebooks/Berinstein-Vazarani.ipynb) — Bernstein–Vazirani algorithm and oracle helpers for secret bit string.
-	- [Notebooks/Deutsch-Jozsa.ipynb](Notebooks/Deutsch-Jozsa.ipynb) — n-qubit Deutsch–Jozsa and oracle builders.
-	- [Notebooks/Deutsch.ipynb](Notebooks/Deutsch.ipynb) — single-qubit Deutsch algorithm and simple oracles.
-	- [Notebooks/Quantum-Teleportation.ipynb](Notebooks/Quantum%20Teleportation.ipynb) — teleportation examples (classical and statevector variants).
-	- [Notebooks/Bell-State.ipynb](Notebooks/Bell%20State_Qiskit.ipynb) — Bell states, simulation, and noise experiments.
+	- [Notebooks/Berinstein-Vazarani.ipynb](Notebooks/Berinstein-Vazarani.ipynb) - Bernstein–Vazirani algorithm and oracle helpers for secret bit string.
+	- [Notebooks/Deutsch-Jozsa.ipynb](Notebooks/Deutsch-Jozsa.ipynb) - n-qubit Deutsch–Jozsa and oracle builders.
+	- [Notebooks/Deutsch.ipynb](Notebooks/Deutsch.ipynb) - single-qubit Deutsch algorithm and simple oracles.
+	- [Notebooks/Quantum-Teleportation.ipynb](Notebooks/Quantum%20Teleportation.ipynb) - teleportation examples (classical and statevector variants).
+	- [Notebooks/Bell-State.ipynb](Notebooks/Bell%20State_Qiskit.ipynb) - Bell states, simulation, and noise experiments.
 
 > Open any notebook from the `Notebooks/` folder to inspect the implemented circuits, helper functions, and simulation calls.
 
@@ -48,7 +51,7 @@ A collection of Qiskit notebooks implementing and analysing foundational quantum
 
 - Qiskit and notebook code assume Qiskit Aer is available (check `env_qiskit.yml`).
 - Notebook cell comments document function and variable names; open the notebook to jump to helper functions such as [`deutsch_jozsa`](Notebooks/Deutsch-Jozsa.ipynb) and [`bernstein_vazarani`](Notebooks/Berinstein-Vazarani.ipynb).
-- Qiskit uses little-endian qubit ordering (LSB→MSB). Some notebooks print reversed strings to match physics notation — see Bernstein–Vazirani outputs.
+- Qiskit uses little-endian qubit ordering (LSB→MSB). Some notebooks print reversed strings to match physics notation - see Bernstein–Vazirani outputs.
 
 ## Contributing
 
